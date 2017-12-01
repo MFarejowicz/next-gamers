@@ -12,16 +12,15 @@
   },
   "keywords": [
     "Next",
-    "website",
-    "game"
+    "House",
+    "Next",
+    "game",
+    "website"
   ],
   "author": "Matt Farejowicz",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MFarejowicz/next-gamers/issues"
   },
-  "homepage": "https://github.com/MFarejowicz/next-gamers#readme",
-  "dependencies": {
-    "semantic-ui": "^2.2.13"
-  }
+  "homepage": "https://github.com/MFarejowicz/next-gamers#readme"
 }
