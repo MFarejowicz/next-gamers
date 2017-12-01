@@ -1,0 +1,27 @@
+{
+  "name": "next-gamers",
+  "version": "0.1.0",
+  "description": "Website for Next Gamers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFarejowicz/next-gamers.git"
+  },
+  "keywords": [
+    "Next",
+    "website",
+    "game"
+  ],
+  "author": "Matt Farejowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MFarejowicz/next-gamers/issues"
+  },
+  "homepage": "https://github.com/MFarejowicz/next-gamers#readme",
+  "dependencies": {
+    "semantic-ui": "^2.2.13"
+  }
+}
