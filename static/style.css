@@ -1,10 +1,14 @@
 html, body {
-  background-color: #00743f;
+  background-color: #b5b0ab;
+  color: #848a97;
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  color: #efefef;
+}
+a {
+  color: #848a97;
+  text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6{
   padding: 0;
@@ -18,7 +22,7 @@ h1, h2, h3, h4, h5, h6{
   padding-bottom: 50px;
 }
 footer{
-  background-color: #192e5b;
+  background-color: #262b35;
   width:100%;
   position: relative;
   margin-top: -50px;
@@ -33,9 +37,6 @@ footer{
   justify-content: space-between;
   font-size: 14px;
 }
-a{
-  color: #efefef;
-}
 p{
   margin: 0;
   padding: 0;
@@ -44,14 +45,25 @@ p{
   width: 60%;
   margin: 20px auto;
 }
-.head {
-  border-bottom: 3px solid black;
+.headContainer {
+  padding: 5px 0;
+  background-color: #262b35;
+  border-bottom: 3px solid #ff4452;
 }
-.headLinks{
+.head{
   width: 60%;
-  margin: 10px auto;
+  margin: 0px auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+.headLinks {
+  font-size: 20px;
+  color: #848a97;
+  display: flex;
+}
+.headLinks a{
+  color: inherit;
 }
 ul{
   margin: 0;
