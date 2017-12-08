@@ -1,6 +1,6 @@
 html, body {
-  background-color: #b5b0ab;
-  color: #848a97;
+  background-color: #e6e6ed;
+  color: #000000;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -19,19 +19,20 @@ h1, h2, h3, h4, h5, h6{
 }
 #main{
   overflow: auto;
-  padding-bottom: 50px;
+  padding-bottom: 53px;
 }
 footer{
+  color: #848a97;
   background-color: #262b35;
-  width:100%;
+  border-top: 3px solid #ff4452;
+  width: 100%;
   position: relative;
-  margin-top: -50px;
-  height: 50px;
+  margin-top: -53px;
+  height: 53px;
   clear: both;
 }
-
 .bot {
-  width: 60%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -51,7 +52,7 @@ p{
   border-bottom: 3px solid #ff4452;
 }
 .head{
-  width: 60%;
+  width: 90%;
   margin: 0px auto;
   display: flex;
   justify-content: flex-end;
