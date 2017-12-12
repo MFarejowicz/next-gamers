@@ -12,12 +12,8 @@
   <title>Next Gamers - Home</title>
 
   <link rel="stylesheet" type="text/css" href="static/style.css">
+  <link rel="stylesheet" type="text/css" href="static/effects.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-  <script src="static/index.js"></script>
 </head>
 
 <body>
@@ -29,17 +25,17 @@
             <img src="./static/img/ngIcon3.png" style="margin-top: 2px"></img>
           </div>
           <div class="headLinks">
-            <a style="display:flex; align-items: center; margin: 0px 20px" href="./index.html">
+            <a style="display:flex; align-items: center; margin: 0px 20px; padding-bottom: 2px;" class="hvr-underline-reveal" href="./index.html">
               <img style="width: 30px; height: 30px; margin-right: 5px;" src="./static/img/home.png"></img>
               <span>Home</span>
             </a>
             <span> | </span>
-            <a style="display:flex; align-items: center; margin: 0px 20px" href="./games.html">
+            <a style="display:flex; align-items: center; margin: 0px 20px; padding-bottom: 2px;" class="hvr-underline-reveal" href="./games.html">
               <img style="width: 30px; height: 30px; margin-right: 5px;" src="./static/img/games.png"></img>
               <span>Games</span>
             </a>
             <span> | </span>
-            <a style="display:flex; align-items: center; margin: 0px 20px" href="./people.html">
+            <a style="display:flex; align-items: center; margin: 0px 20px; padding-bottom: 2px;" class="hvr-underline-reveal" href="./people.html">
               <img style="width: 30px; height: 30px; margin-right: 5px;" src="./static/img/people.png"></img>
               <span>People</span>
             </a>
@@ -85,7 +81,10 @@
     <div class="bot">
       <div style="margin-top: 6px">
         <p>Next Gamers, last updated Dec 2017</p>
-        <p>Contact us: nextgamers-exec@mit.edu</p>
+        <div id="tooltip">
+          Contact us: <span id="contact" style="text-decoration: underline; cursor: pointer" data-clipboard-text="nextgamers-exec@mit.edu">nextgamers-exec@mit.edu</span>
+          <span id="tooltipText">Copied to clipboard!</span>
+        </div>
       </div>
       <div style="text-align: right; margin-top: 6px">
         <p>Visit the Next House website</p>
@@ -93,6 +92,13 @@
       </div>
     </div>
   </footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+  <script src="./static/index.js"></script>
 </body>
 
 </html>
