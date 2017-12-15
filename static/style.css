@@ -64,17 +64,96 @@ p{
   display: flex;
 }
 .headLinks a{
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+  padding-bottom: 2px;
   color: inherit;
+}
+.headImg {
+  width: 50px;
+  margin-right: auto;
+}
+.headLinksImg {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+#banner {
+  max-width: 100%;
+}
+.title {
+  font-size: 80px;
+  font-weight: bold;
+}
+.title2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.contentText {
+  font-size: 20px;
+}
+.contentText2 {
+  font-size: 18px;
+}
+.contentHeading {
+  font-weight: bold;
+}
+.contentHeading2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.contentBold {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contentBold2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+.contentDiv {
+  margin-bottom: 20px;
+}
+.contentDiv2 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.divide {
+  margin-top: 18px;
+  width: 50%;
 }
 ul{
   margin: 0;
 }
-
+.botText {
+  margin-top: 6px;
+}
+#contact {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.botLink {
+  text-decoration: underline;
+}
+.botNext {
+  text-align: right;
+  margin-top: 6px;
+}
+.link {
+  color: #000000;
+  text-decoration: underline;
+}
+.peopleList {
+  margin-top: 10px;
+}
 #tooltip {
   position: relative;
   display: inline-block;
 }
-
 #tooltipText {
   display: none;
   width: 120px;
@@ -99,4 +178,26 @@ ul{
   border-width: 5px;
   border-style: solid;
   border-color: #ff4452 transparent transparent transparent;
+}
+
+.expansion li{
+  list-style: none;
+}
+
+.expansion li:before {
+    content: "+";
+    margin-right: 4px;
+}
+
+@media all and (max-width: 1000px){
+  .content{
+    width: 90%;
+  }
+}
+
+/* Make that shit mobile friendly */
+@media all and (max-width: 640px){
+  .content {
+    font-size: 8px
+  }
 }

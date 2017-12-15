@@ -14,11 +14,6 @@
   <link rel="stylesheet" type="text/css" href="static/style.css">
   <link rel="stylesheet" type="text/css" href="static/effects.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-  <script src="static/index.js"></script>
 </head>
 
 <body>
@@ -26,89 +21,92 @@
     <div id="main">
       <div class="headContainer">
         <div class="head">
-          <div style="width: 50px; margin-right:auto">
-            <img src="./static/img/ngIcon3.png" style="margin-top: 2px"></img>
+          <div class="headImg">
+            <img src="./static/img/ngIcon3.png" style="margin-top: 4px"></img>
           </div>
           <div class="headLinks">
-            <a style="display:flex; align-items: center; margin: 0px 20px; padding-bottom: 2px;" class="hvr-underline-reveal" href="./index.html">
-              <img style="width: 30px; height: 30px; margin-right: 5px;" src="./static/img/home.png"></img>
+            <a class="hvr-underline-reveal" href="./index.html">
+              <img class="headLinksImg" src="./static/img/home.png"></img>
               <span>Home</span>
             </a>
             <span> | </span>
-            <a style="display:flex; align-items: center; margin: 0px 20px; padding-bottom: 2px;" class="hvr-underline-reveal" href="./games.html">
-              <img style="width: 30px; height: 30px; margin-right: 5px;" src="./static/img/games.png"></img>
+            <a class="hvr-underline-reveal" href="./games.html">
+              <img class="headLinksImg" src="./static/img/games.png"></img>
               <span>Games</span>
             </a>
             <span> | </span>
-            <a style="display:flex; align-items: center; margin: 0px 20px; padding-bottom: 2px;" class="hvr-underline-reveal" href="./people.html">
-              <img style="width: 30px; height: 30px; margin-right: 5px;" src="./static/img/people.png"></img>
+            <a class="hvr-underline-reveal" href="./people.html">
+              <img class="headLinksImg" src="./static/img/people.png"></img>
               <span>People</span>
             </a>
           </div>
         </div>
       </div>
-      <img src="./static/img/ngBanner.png" style="max-width: 100%"></img>
+      <img id="banner" src="./static/img/ngBanner.png"></img>
       <div class="content">
         <div>
-          <p style="font-size: 60px; font-weight: bold">
+          <p class="title2">
             NEXT GAMERS
           </p>
           <hr/>
         </div>
-        <div style="font-size: 18px">
-          <p style="font-size: 26px; font-weight: bold; text-decoration: underline; margin-bottom: 5px">Game Use Instructions</p>
-          <p style="font-size: 20px; font-weight: bold">How do I play a board game?</p>
+        <div class="contentText2">
+          <p class="contentHeading2">Game Use Instructions</p>
+          <p class="contentBold">How do I play a board game?</p>
           <p>All of our available board games are located behind the Next House Desk. You will need to <i>check out</i> a game out to be able to use it! Checking out an item is fairly straightforward, and only requires your MIT ID.</p>
           <br/>
           <p>First, you will need to approach the desk while a desk worker is present (usually from 8am to 1am). Tell them you'd like to check out a board game, saying specifically which game you'd like to check out.
           You should present your ID at this point, if the desk worker hasn't already asked for it. The desk worker will then grab the game for you. Most of our board games are held in BIT Box storage, so you might get the board and pieces in separate bags.
           Once the desk worker hands you the pieces and logs you in the system as having checked out the item, you are all good to go!</p>
           <br/>
-          <p>Games are checked out for 4 days by default. There is a limit of 2 checkouts per person. There is no renewal system for games. To return a game, simply hand all the pieces you received back to a desk worker. If you hold onto the board game for more than 4 days, you will receive an email reminder notifying
+          <p>Games are checked out for 4 days by default, but you should return the game after you finish playing. There is a limit of 2 checkouts per person. There is no renewal system for games. To return a game, simply hand all the pieces you received back to a desk worker. If you hold onto the board game for more than 4 days, you will receive an email reminder notifying
           you that you should return the game. Make sure to return the game by this point! And as a general reminder, please take care of the board game while you have it checked out.</p>
           <br/>
-          <p style="font-size: 20px; font-weight: bold">How do I play a video game?</p>
-          <p>All of our available video games are downloaded onto our very own <i>Next Gamers</i> PS4! The PS4 is located in the TFL TV Area of Next House. You are free to use the PS4 as long as no one has the space reserved, which you can check the reservation status of on <a href="https://nextres.mit.edu">NextRes</a>.
+          <p class="contentBold">How do I play a video game?</p>
+          <p>All of our available video games are downloaded onto our very own <i>Next Gamers</i> PS4! The PS4 is located in the TFL TV Area of Next House. You are free to use the PS4 as long as no one has the space reserved, which you can check the reservation status of on <a href="https://nextres.mit.edu" class="link">NextRes</a>.
           If the space is open, you'll need to check out a controller from the Next House Desk. We have 4 controllers available, so you and up to 3 friends can game on the PS4. The procedure to check out a controller is very similar to checking out a board game (refer to above!). </p>
           <br/>
-          <p>Once you have acquired one or more PS4 controllers, you can head back to the TFL TV Area and get the PS4 going. To turn on the TV and make sure it has the correct output, refer to the guide found <a href="./static/files/useAmp.pdf" style="color: #000000; text-decoration: underline">here</a>. Once the TV is on, you can make sure the PS4 is in order by following this
-            <a href="./static/files/usePS4.pdf" style="color: #000000; text-decoration: underline">PS4 specific guide</a>. After following this, you should be all set to use the PS4!</p>
+          <p>Once you have acquired one or more PS4 controllers, you can head back to the TFL TV Area and get the PS4 going. To turn on the TV and make sure it has the correct output, refer to the guide found <a href="./static/files/useAmp.pdf" class="link">here</a>. Once the TV is on, you can make sure the PS4 is in order by following this
+            <a href="./static/files/usePS4.pdf" class="link">PS4 specific guide</a>. After following this, you should be all set to use the PS4!</p>
           <br/>
-          <p>The PS4 controllers are checked for 4 days by default, but we highly recommend returning them right after using them, since they are expensive pieces of equipment. To return the controllers, simply bring them to a desk worker and tell them you'd like to return the controller.  If you hold onto the controller for more than 4 days, you will receive an email reminder notifying
+          <p>The PS4 controllers are checked for 4 days by default, but you should return them right after using them, since they are expensive pieces of equipment. To return the controllers, simply bring them to a desk worker and tell them you'd like to return the controller.  If you hold onto the controller for more than 4 days, you will receive an email reminder notifying
           you that you should return it. Make sure to return the controller by this point! And as a general reminder, please take care of the controller and PS4 while using it.</p>
         </div>
         <hr style="margin-top: 18px"/>
-        <div style="margin-bottom: 20px">
-          <p style="font-size: 26px; font-weight: bold; text-decoration: underline; margin-bottom: 5px">Current Game Catalog</p>
-          <p style="font-size: 20px; font-weight: bold">Board Games:</p>
-          <ul style="font-size: 18px">
+        <div class="contentDiv">
+          <p class="contentHeading2">Current Game Catalog</p>
+          <p class="contentBold">Board Games:</p>
+          <ul class="contentText2">
             <li>7 Wonders</li>
-              <ul>
+              <ul class="expansion">
                 <li>Cities</li>
                 <li>Wonder Pack</li>
                 <li>Leaders</li>
               </ul>
             <li>Above and Below</li>
             <li>Acension</li>
-              <ul>
+              <ul class="expansion">
                 <li>Darkness Unleashed</li>
                 <li>Realms Unraveled</li>
-                <li>War of Shadows</li>
                 <li>Immortal Heroes</li>
                 <li>Return of the Fallen</li>
                 <li>Rise of Vigil</li>
                 <li>Storm of Souls</li>
+                <li>Ascension X: War of Shadows</li>
               </ul>
             <li>Apex Theropod Deck-Building Game</li>
             <li>Bang!</li>
             <li>Battleship</li>
             <li>Battlestar Galactica</li>
             <li>Betrayal at House on the Hill</li>
+              <ul class="expansion">
+                <li>Window's Walk</li>
+              </ul>
             <li>Blood Bound</li>
             <li>Captain Sonar</li>
             <li>Carcassone</li>
             <li>Catan</li>
-              <ul>
+              <ul class="expansion">
                 <li>Cities and Knights</li>
                 <li>Explorers and Pirates</li>
                 <li>Seafarers</li>
@@ -124,7 +122,7 @@
             <li>Deception: Murder in Hong Kong</li>
             <li>Diplomacy</li>
             <li>Dominion</li>
-              <ul>
+              <ul class="expansion">
                 <li>Intrigue</li>
                 <li>Prosperity</li>
                 <li>Seaside</li>
@@ -137,7 +135,7 @@
             <li>Forbidden Desert</li>
             <li>Hanabi</li>
             <li>King's Forge</li>
-              <ul>
+              <ul class="expansion">
                 <li>Apprentices</li>
               </ul>
             <li>Last Night On Earth</li>
@@ -147,7 +145,7 @@
             <li>Megacquire</li>
             <li>Mindtwister USA Pentago</li>
             <li>Munchkin</li>
-              <ul>
+              <ul class="expansion">
                 <li>Unnatural Axe</li>
                 <li>Clerical Errors</li>
                 <li>The Need for Steed</li>
@@ -164,13 +162,14 @@
             <li>Sentinels of the Multiverse</li>
             <li>SET</li>
             <li>Shadows Over Camelot</li>
-              <ul>
+              <ul class="expansion">
                 <li>Merlin's Company</li>
               </ul>
             <li>Spyfall Card Game</li>
             <li>Summoner Wars</li>
             <li>Survive: Escape from Atlantis</li>
-              <ul>
+              <ul class="expansion">
+                <li>5-6 Player Expansion</li>
                 <li>Dolphins and Squids</li>
               </ul>
             <li>Sushi Go Party</li>
@@ -182,16 +181,16 @@
             <li>Ticket to Ride</li>
             <li>Trivial Pursuit Master Edition</li>
             <li>Tzolk'in</li>
-              <ul>
+              <ul class="expansion">
                 <li>Tribes and Prophecies</li>
               </ul>
             <li>We Didn't Playtest This Either</li>
             <li>Xia: Legends of a Drift System</li>
           </ul>
-          <hr style="margin-top:18px; width:50%"/>
-          <p style="font-size: 20px; font-weight: bold">Video Games:</h3>
-          <p style="font-size: 20px; font-weight: bold; margin-top: 5px; padding-left:20px">PS4</p>
-          <ul style="font-size: 18px">
+          <hr class="divide"/>
+          <p class="contentBold">Video Games:</h3>
+          <p class="contentBold2">PS4</p>
+          <ul class="contentText2">
             <li>LittleBigPlanet 3</li>
             <li>Rayman Legends</li>
             <li>NBA 2K17</li>
@@ -206,7 +205,7 @@
             <li>Terraria</li>
             <li>Call of Duty: World War II</li>
           </ul>
-          <p style="font-size: 20px; font-weight: bold; margin-top: 5px; padding-left:20px">Steam</p>
+          <p class="contentBold2">Steam</p>
           <ul>
             <li>Move or Die</li>
             <li>HELLDIVERS</li>
@@ -218,16 +217,26 @@
 
   <footer>
     <div class="bot">
-      <div style="margin-top: 6px">
+      <div class="botText">
         <p>Next Gamers, last updated Dec 2017</p>
-        <p>Contact us: <span id="contact" style="text-decoration: underline; cursor: pointer" data-clipboard-text="nextgamers-exec@mit.edu">nextgamers-exec@mit.edu</span></p>
+        <div id="tooltip">
+          Contact us: <span id="contact" data-clipboard-text="nextgamers-exec@mit.edu">nextgamers-exec@mit.edu</span>
+          <span id="tooltipText">Copied to clipboard!</span>
+        </div>
       </div>
-      <div style="text-align: right; margin-top: 6px">
+      <div class="botNext">
         <p>Visit the Next House website</p>
-        <a style="text-decoration: underline" href="https://next.mit.edu">next.mit.edu</a>
+        <a class="botLink" href="https://next.mit.edu">next.mit.edu</a>
       </div>
     </div>
   </footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+  <script src="./static/index.js"></script>
 </body>
 
 </html>
